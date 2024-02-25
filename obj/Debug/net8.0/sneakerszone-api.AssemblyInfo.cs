@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sneakerszone-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9adbef8543416981370e0342d7fc0db92494319")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fccbeb2746f016e51299de70f6049bd7cb03f85")]
 [assembly: System.Reflection.AssemblyProductAttribute("sneakerszone-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sneakerszone-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

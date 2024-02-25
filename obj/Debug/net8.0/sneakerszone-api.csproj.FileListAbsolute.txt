@@ -30,3 +30,4 @@ D:\workspace\estudos\csharp\sneakerszone-api\obj\Debug\net8.0\refint\sneakerszon
 D:\workspace\estudos\csharp\sneakerszone-api\obj\Debug\net8.0\sneakerszone-api.pdb
 D:\workspace\estudos\csharp\sneakerszone-api\obj\Debug\net8.0\sneakerszone-api.genruntimeconfig.cache
 D:\workspace\estudos\csharp\sneakerszone-api\obj\Debug\net8.0\ref\sneakerszone-api.dll
+D:\workspace\estudos\csharp\sneakerszone-api\obj\Debug\net8.0\sneakerszone-api.sourcelink.json

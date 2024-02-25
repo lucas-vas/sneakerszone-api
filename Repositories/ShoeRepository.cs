@@ -1,57 +1,58 @@
 using sneakerszone_api.Model;
+using sneakerszone_api.Model.Constants;
 
 namespace sneakerszone_api.Repositories
 {
     public static class ShoeRepository
     {
-        private static readonly List<Shoe> _shoes = new()
-        {
-            new Shoe
+        private static readonly List<Shoe> _shoes =
+        [
+            new()
             {
                 Id = 1,
                 Description = "Nike Air Jordan 1 Mid",
-                Image = "",
-                ImageOver = "",
+                Image = ImageShoes.JordanBlack,
+                ImageOver = ImageShoes.JordanBlackOver,
                 Type = "Sneakers",
                 Value = "119,99"
             },
-            new Shoe
+            new()
             {
                 Id = 2,
                 Description = "Air Jordan Legacy 312 Low",
-                Image = "",
-                ImageOver = "",
+                Image = ImageShoes.AirJordanLegacy,
+                ImageOver = ImageShoes.AirJordanLegacyOver,
                 Type = "Sneakers",
                 Value = "149,99"
             },
-            new Shoe
+            new()
             {
                 Id = 3,
                 Description = "Air Force 1 '07",
-                Image = "",
-                ImageOver = "",
+                Image = ImageShoes.AirForce1,
+                ImageOver = ImageShoes.AirForce1Over,
                 Type = "Sneakers",
                 Value = "89,99"
             },
-            new Shoe
+            new()
             {
                 Id = 4,
                 Description = "Adidas Forum Low CL",
-                Image = "",
-                ImageOver = "",
+                Image = ImageShoes.AdidasForumLow,
+                ImageOver = ImageShoes.AdidasForumLowOver,
                 Type = "Sneakers",
                 Value = "120,00"
             },
-            new Shoe
+            new()
             {
                 Id = 5,
                 Description = "Nike Shox 12 Molas",
-                Image = "",
-                ImageOver = "",
+                Image = ImageShoes.NikeShox,
+                ImageOver = ImageShoes.NikeShoxOver,
                 Type = "Sneakers",
                 Value = "127,32"
             }
-        };
+        ];
 
         public static void AddShoe(Shoe shoe){
             _shoes.Add(shoe);
