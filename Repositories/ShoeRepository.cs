@@ -4,52 +4,54 @@ namespace sneakerszone_api.Repositories
 {
     public static class ShoeRepository
     {
-        private static readonly List<Shoe> _shoes = [
-            new()
-                {
-                    Id = 1,
-                    Description = "Nike Air Jordan 1 Mid",
-                    Image = "",
-                    ImageOver = "",
-                    Type = "Sneakers",
-                    Value = "119,99"
-                },
-                new() {
-                    Id = 2,
-                    Description = "Air Jordan Legacy 312 Low",
-                    Image = "",
-                    ImageOver = "",
-                    Type = "Sneakers",
-                    Value = "149,99"
-                },
-                new()
-                {
-                    Id = 3,
-                    Description = "Air Force 1 '07",
-                    Image = "",
-                    ImageOver = "",
-                    Type = "Sneakers",
-                    Value = "89,99"
-                },
-                new()
-                {
-                    Id = 4,
-                    Description = "Adidas Forum Low CL",
-                    Image = "",
-                    ImageOver = "",
-                    Type = "Sneakers",
-                    Value = "120,00"
-                },
-                new()
-                {
-                    Id = 5,
-                    Description = "Nike Shox 12 Molas",
-                    Image = "",
-                    ImageOver = "",
-                    Type = "Sneakers",
-                    Value = "127,32"
-                }
-        ];
+        private static readonly List<Shoe> _shoes = new()
+        {
+            new Shoe
+            {
+                Id = 1,
+                Description = "Nike Air Jordan 1 Mid",
+                Image = "",
+                ImageOver = "",
+                Type = "Sneakers",
+                Value = "119,99"
+            },
+            new Shoe
+            {
+                Id = 2,
+                Description = "Air Jordan Legacy 312 Low",
+                Image = "",
+                ImageOver = "",
+                Type = "Sneakers",
+                Value = "149,99"
+            },
+            new Shoe
+            {
+                Id = 3,
+                Description = "Air Force 1 '07",
+                Image = "",
+                ImageOver = "",
+                Type = "Sneakers",
+                Value = "89,99"
+            },
+            new Shoe
+            {
+                Id = 4,
+                Description = "Adidas Forum Low CL",
+                Image = "",
+                ImageOver = "",
+                Type = "Sneakers",
+                Value = "120,00"
+            },
+            new Shoe
+            {
+                Id = 5,
+                Description = "Nike Shox 12 Molas",
+                Image = "",
+                ImageOver = "",
+                Type = "Sneakers",
+                Value = "127,32"
+            }
+        };
 
         public static void AddShoe(Shoe shoe){
             _shoes.Add(shoe);
