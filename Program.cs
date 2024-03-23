@@ -7,11 +7,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var policyCorsAllowAll = "AllowAll";
-
 builder.Services.AddCors(options =>
     {
-        options.AddPolicy(policyCorsAllowAll,
+        options.AddPolicy("AllowSpecificOrigin",
             builder =>
             {
                 builder.AllowAnyOrigin()
@@ -29,11 +27,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(policyCorsAllowAll);
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("AllowSpecificOrigin");
 
 app.MapControllers();
 

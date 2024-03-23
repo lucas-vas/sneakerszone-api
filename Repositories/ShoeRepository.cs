@@ -12,7 +12,7 @@ namespace sneakerszone_api.Repositories
                 Id = 1,
                 Description = "Nike Air Jordan 1 Mid",
                 Image = ImageShoes.JordanBlack,
-                ImageOver =  ImageShoes.JordanBlackOver,
+                ImageOver = ImageShoes.JordanBlackOver,
                 Type = "Sneakers",
                 Value = "119,99"
             },
